@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ventbox")(type "KiCad")(uri "${KIPRJMOD}/ventbox.kicad_sym")(options "")(descr "Ventbox project symbols"))
+)

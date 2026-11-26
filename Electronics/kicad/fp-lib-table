@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ventbox")(type "KiCad")(uri "${KIPRJMOD}/ventbox.pretty")(options "")(descr "Ventbox project footprints"))
+)

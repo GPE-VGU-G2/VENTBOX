@@ -1,0 +1,472 @@
+{
+ "root": "78565169-4908-4c99-9bac-74ce84d42046",
+ "symbols": {
+  "U1": "ea2cc94a-ad53-4867-839e-9b3807ce77e5",
+  "U2": "32e1f8e2-8809-4a8f-b266-3d60aacc4a80",
+  "BT1": "ef42db4a-ce68-42a4-b4d0-b3708bc8e5bb",
+  "M1": "3524b492-16e0-4878-8302-6d935fa443a7",
+  "Q1": "65736ca0-4666-47ab-be0b-0bbccad26c35",
+  "R1": "27d2ce2a-9d54-4b86-ad2e-50b98d29565d",
+  "R2": "fbfd4e1b-876b-48a6-8671-c86e78825357",
+  "D1": "b194f9c5-ed30-4985-b9a1-54234a8104f0",
+  "SW1": "3bc8dabf-cde1-4735-867a-0cb205d9884b",
+  "TP1": "e9f6dc90-c820-43ef-ae2b-7ae7a90df9d1",
+  "TP2": "ce692ab6-9a07-42e4-bed1-081ac3f8ec0a",
+  "TP3": "9002627f-39fc-4b53-8125-d5d121c6c790",
+  "TP4": "c8e7c08e-3f09-42b0-aa8f-6457786ddc91",
+  "TP5": "994b18d7-4b77-43c5-a6f8-7f8334f4a0b1",
+  "TP6": "4ba4d939-f64a-4ef4-b46d-40b83b321615",
+  "D2": "4e2100c9-7d59-4cba-948b-2dc7947d88d0",
+  "R3": "34b452b7-e866-4292-9011-35fd33fffe66",
+  "R4": "639b0b03-f9f2-4da6-ab01-4922f53feb56",
+  "R5": "9f9e9ab4-db64-454c-a0fd-c251884a8715",
+  "TP7": "185b32f7-e26e-4178-a033-a71fef7ab70e",
+  "TP8": "e35a5bf9-66f6-49ea-8121-1fa4f4a1da39",
+  "TP9": "acb78175-28e2-471f-b739-2e4c4e976855"
+ },
+ "parts": [
+  [
+   "U1",
+   "ventbox:XIAO_nRF52840",
+   "XIAO_nRF52840",
+   "",
+   false,
+   {
+    "MPN": "102010448",
+    "Supplier": "Seeed Studio"
+   }
+  ],
+  [
+   "U2",
+   "ventbox:SHT40_Breakout",
+   "SHT40_7Semi_ES-13521",
+   "",
+   false,
+   {
+    "MPN": "ES-13521",
+    "Supplier": "7Semi"
+   }
+  ],
+  [
+   "BT1",
+   "Device:Battery_Cell",
+   "LiPo_LP303035_3.7V_310mAh",
+   "",
+   false,
+   {
+    "MPN": "LP303035",
+    "Supplier": "LiPol Battery"
+   }
+  ],
+  [
+   "M1",
+   "Motor:Fan",
+   "Sunon_UB5U3-700",
+   "",
+   false,
+   {
+    "MPN": "UB5U3-700",
+    "Supplier": "Sunon"
+   }
+  ],
+  [
+   "Q1",
+   "Transistor_FET:Q_NMOS_GSD",
+   "AO3400A",
+   "Package_TO_SOT_SMD:SOT-23",
+   true,
+   {
+    "MPN": "AO3400A",
+    "LCSC": "C20917"
+   }
+  ],
+  [
+   "R1",
+   "Device:R",
+   "100",
+   "Resistor_SMD:R_0603_1608Metric",
+   true,
+   {
+    "MPN": "0603WAF1000T5E",
+    "LCSC": "C22775"
+   }
+  ],
+  [
+   "R2",
+   "Device:R",
+   "10k",
+   "Resistor_SMD:R_0603_1608Metric",
+   true,
+   {
+    "MPN": "0603WAF1002T5E",
+    "LCSC": "C25804"
+   }
+  ],
+  [
+   "D1",
+   "Device:D_Schottky",
+   "B5819W",
+   "Diode_SMD:D_SOD-123",
+   true,
+   {
+    "MPN": "B5819W SL",
+    "LCSC": "C8598"
+   }
+  ],
+  [
+   "SW1",
+   "Switch:SW_Push",
+   "TS-1187A",
+   "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A",
+   true,
+   {
+    "MPN": "TS-1187A-B-A-B",
+    "LCSC": "C318884"
+   }
+  ],
+  [
+   "TP1",
+   "Connector:TestPoint",
+   "BTN",
+   "TestPoint:TestPoint_Pad_1.5x1.5mm",
+   true,
+   {}
+  ],
+  [
+   "TP2",
+   "Connector:TestPoint",
+   "PWM",
+   "TestPoint:TestPoint_Pad_1.5x1.5mm",
+   true,
+   {}
+  ],
+  [
+   "TP3",
+   "Connector:TestPoint",
+   "GND",
+   "TestPoint:TestPoint_Pad_1.5x1.5mm",
+   true,
+   {}
+  ],
+  [
+   "TP4",
+   "Connector:TestPoint",
+   "VBAT",
+   "TestPoint:TestPoint_Pad_1.5x1.5mm",
+   true,
+   {}
+  ],
+  [
+   "TP5",
+   "Connector:TestPoint",
+   "FAN+",
+   "TestPoint:TestPoint_Pad_1.5x1.5mm",
+   true,
+   {}
+  ],
+  [
+   "TP6",
+   "Connector:TestPoint",
+   "FAN-",
+   "TestPoint:TestPoint_Pad_1.5x1.5mm",
+   true,
+   {}
+  ],
+  [
+   "D2",
+   "Device:LED_RAGB",
+   "XL-1615RGBC-RF",
+   "ventbox:LED_RGB_XINGLIGHT_XL-1615RGBC",
+   true,
+   {
+    "MPN": "XL-1615RGBC-RF",
+    "LCSC": "C965840"
+   }
+  ],
+  [
+   "R3",
+   "Device:R",
+   "330",
+   "Resistor_SMD:R_0402_1005Metric",
+   true,
+   {
+    "MPN": "0402WGF3300TCE",
+    "LCSC": "C25104"
+   }
+  ],
+  [
+   "R4",
+   "Device:R",
+   "150",
+   "Resistor_SMD:R_0402_1005Metric",
+   true,
+   {
+    "MPN": "0402WGF1500TCE",
+    "LCSC": "C25082"
+   }
+  ],
+  [
+   "R5",
+   "Device:R",
+   "150",
+   "Resistor_SMD:R_0402_1005Metric",
+   true,
+   {
+    "MPN": "0402WGF1500TCE",
+    "LCSC": "C25082"
+   }
+  ],
+  [
+   "TP7",
+   "Connector:TestPoint",
+   "LED_R",
+   "TestPoint:TestPoint_Pad_1.0x1.0mm",
+   true,
+   {}
+  ],
+  [
+   "TP8",
+   "Connector:TestPoint",
+   "LED_G",
+   "TestPoint:TestPoint_Pad_1.0x1.0mm",
+   true,
+   {}
+  ],
+  [
+   "TP9",
+   "Connector:TestPoint",
+   "LED_B",
+   "TestPoint:TestPoint_Pad_1.0x1.0mm",
+   true,
+   {}
+  ]
+ ],
+ "nets": {
+  "VBAT": [
+   [
+    "BT1",
+    "1"
+   ],
+   [
+    "U1",
+    "15"
+   ],
+   [
+    "TP4",
+    "1"
+   ],
+   [
+    "TP5",
+    "1"
+   ],
+   [
+    "M1",
+    "1"
+   ],
+   [
+    "D1",
+    "1"
+   ],
+   [
+    "D2",
+    "2"
+   ]
+  ],
+  "GND": [
+   [
+    "BT1",
+    "2"
+   ],
+   [
+    "U1",
+    "16"
+   ],
+   [
+    "U1",
+    "13"
+   ],
+   [
+    "U2",
+    "2"
+   ],
+   [
+    "Q1",
+    "2"
+   ],
+   [
+    "R2",
+    "2"
+   ],
+   [
+    "SW1",
+    "2"
+   ],
+   [
+    "TP3",
+    "1"
+   ]
+  ],
+  "+3V3": [
+   [
+    "U1",
+    "12"
+   ],
+   [
+    "U2",
+    "1"
+   ]
+  ],
+  "SDA": [
+   [
+    "U1",
+    "5"
+   ],
+   [
+    "U2",
+    "4"
+   ]
+  ],
+  "SCL": [
+   [
+    "U1",
+    "6"
+   ],
+   [
+    "U2",
+    "3"
+   ]
+  ],
+  "FAN_PWM": [
+   [
+    "U1",
+    "3"
+   ],
+   [
+    "TP2",
+    "1"
+   ],
+   [
+    "R1",
+    "1"
+   ]
+  ],
+  "GATE": [
+   [
+    "R1",
+    "2"
+   ],
+   [
+    "Q1",
+    "1"
+   ],
+   [
+    "R2",
+    "1"
+   ]
+  ],
+  "FAN_SW": [
+   [
+    "Q1",
+    "3"
+   ],
+   [
+    "M1",
+    "2"
+   ],
+   [
+    "D1",
+    "2"
+   ],
+   [
+    "TP6",
+    "1"
+   ]
+  ],
+  "BTN": [
+   [
+    "U1",
+    "2"
+   ],
+   [
+    "TP1",
+    "1"
+   ],
+   [
+    "SW1",
+    "1"
+   ]
+  ],
+  "LED_R": [
+   [
+    "U1",
+    "8"
+   ],
+   [
+    "TP7",
+    "1"
+   ],
+   [
+    "R3",
+    "1"
+   ]
+  ],
+  "LED_RK": [
+   [
+    "R3",
+    "2"
+   ],
+   [
+    "D2",
+    "1"
+   ]
+  ],
+  "LED_G": [
+   [
+    "U1",
+    "9"
+   ],
+   [
+    "TP8",
+    "1"
+   ],
+   [
+    "R4",
+    "1"
+   ]
+  ],
+  "LED_GK": [
+   [
+    "R4",
+    "2"
+   ],
+   [
+    "D2",
+    "3"
+   ]
+  ],
+  "LED_B": [
+   [
+    "U1",
+    "7"
+   ],
+   [
+    "TP9",
+    "1"
+   ],
+   [
+    "R5",
+    "1"
+   ]
+  ],
+  "LED_BK": [
+   [
+    "R5",
+    "2"
+   ],
+   [
+    "D2",
+    "4"
+   ]
+  ]
+ }
+}
